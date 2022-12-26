@@ -1,0 +1,84 @@
+/* @media (min-width: 640px) {  }
+	@media (min-width: 768px) {  }
+	@media (min-width: 1024px) {  }
+	@media (min-width: 1280px) {  }
+	@media (min-width: 1536px) {  } */
+/* largre device  */
+
+/* @media (min-width:1328px) {
+    header{
+    height: 600px;
+    width: auto;
+    }
+    .about-section-padding {
+        padding-top: 90px;
+      }
+} */
+@media (min-width:1201px) {
+    
+}
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    header{
+        height: 315px;
+        width: auto;
+        }
+        .about-section-padding {
+            margin-top: 20px;
+          }
+
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+    .slider-content h1 {
+        font-size: 90px;       
+    }
+    .single-service {       
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 575px) {
+    .slider-content h1 {
+        font-size: 42px;       
+    }  
+    .single-service {       
+        margin-bottom: 20px;
+    }
+    .about-item {
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .single-service {
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .pricing-card{
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+    .single-counter{
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .slider-content h1 {
+        font-size: 70px;       
+    }
+    .single-service {       
+        margin-bottom: 20px;
+    }
+}
