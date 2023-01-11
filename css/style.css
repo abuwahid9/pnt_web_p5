@@ -4,15 +4,18 @@ $link: #e34234;
 $link-hover: #ba160c;
 $background: #00356B; */
 
-/* 
-navbar section
-*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* NAV section */
+nav {
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
 .navbar-brand img {
   width: 165px;
 }
@@ -20,7 +23,7 @@ navbar section
 .menubg {
   background: rgb(38, 155, 201) !important;
 }
-
+/* Background section */
 canvas {
   display: block;
   vertical-align: bottom;
@@ -253,6 +256,9 @@ header {
 /* 
 about section
 */
+#about{
+  font-family: 'Oswald', sans-serif;
+}
 .about-icon i {
   font-size: 60px;
 }
